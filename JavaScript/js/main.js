@@ -1,3 +1,35 @@
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    console.log(document.getElementById("agradecimento"));
+    //    alert("Obrigado por Clicar");
+}
+
+function redirecionar(){
+    window.open("https://www.azoup.com.br/");
+    //window.location.href = "https://www.azoup.com.br/";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse aqui";
+    //document.getElementById("mouseover").innerHTML = "Obrigado por passar o mouse aqui";
+    //alert("Trocar texto");
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mouseover").innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+
 /*
 //var valida = 0;
 function validaIdade(idade){
@@ -8,7 +40,7 @@ function validaIdade(idade){
     }
     return validar;
 }
-*/
+
 function validaIdade(idade){
     if (idade >= 18){
         return true
