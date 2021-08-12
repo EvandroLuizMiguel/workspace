@@ -1,4 +1,12 @@
 
+function sum(...args){
+    console.log(args);
+}
+
+console.log(sum(5,5,5,2,3));
+
+
+/*
 function clicou(){
     document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
     console.log(document.getElementById("agradecimento"));
