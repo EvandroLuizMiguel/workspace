@@ -72,6 +72,10 @@ header nav a:hover{
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
+.filme_principal .container{
+    width: 70%;
+}
+
 .botao{
     background-color: rgba(0,0,0,.50);
     border: none;
