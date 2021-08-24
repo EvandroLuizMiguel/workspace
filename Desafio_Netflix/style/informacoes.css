@@ -27,28 +27,8 @@ header .container{
     justify-content: space-between;
 }
 
-header .logo{
-    /*logo do projeto*/
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 30px;
-}
-
-header nav a{
-    /*informações do menu*/
-    text-decoration: none;
-    color: #AAA;
-    margin-right: 10px;
-}
-
-header nav a:hover{
-    /*animação do menu*/
-    color: #FFF;
-}
-
 /*filme principal*/
-.filme_principal{
+.Imagem_principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/CapaPontoCego.jpg');
 
@@ -61,18 +41,14 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme_principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-
-.filme_principal .titulo{
-    margin-top: 15%;
+.Imagem_principal .titulo{
+    margin-top: 50%;
+    margin-left: 30px;
     font-size: 50px;
     font-family: Arial, sans-serif;
 }
 
-.filme_principal .container{
+.Imagem_principal .container{
     width: 70%;
 }
 
@@ -92,7 +68,7 @@ header nav a:hover{
 
 .botao_assistir{
     background-color: rgba(255,255,255,100);
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     color: black;
 }
@@ -101,29 +77,25 @@ header nav a:hover{
     background-color: rgb(189, 178, 178);
 }
 
-.botao_info{
-    background-color: rgb(95, 95, 95);
-    border-radius: 10px;
-    border: none;
-    color: white;
-}
-
-.botao_info:hover{
-    background-color: rgb(49, 47, 47);
-}
-
 .container{
     margin-left: 20px;
 }
 
-.box-filme{
-    height: 100%;
-    width: 100%;
-    display: block;
+.botao_informacoes{
+    background-color: transparent;
+    border-radius: 100%;
+    border: 3px solid white;
+    color: white;
+    font-size: 30px;
+
+    padding: 5px 5px;
+    margin-right: 5px;
+
+    cursor: pointer;
+    transition: .3s ease all;      
 }
 
-.carrosel-filmes{
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
+.botao_informacoes:hover{
+    border-color: gray;
+    background-color: gray;
 }
