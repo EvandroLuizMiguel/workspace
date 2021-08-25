@@ -32,7 +32,7 @@ header .container{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/CapaPontoCego.jpg');
 
-    height: 450px;
+    height: 400px;
     background-size: cover;
 
     display: flex;
@@ -98,4 +98,37 @@ header .container{
 .botao_informacoes:hover{
     border-color: gray;
     background-color: gray;
+}
+
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;      
+}
+
+.informacoes .info_texto{
+    width: 80%;
+}
+
+.informacoes .info_elenco .info{
+    font-size: 15px;
+    margin-right: 30px;
+    margin: 20px;
+}
+
+.informacoes .info .destaque{
+    color: gray;
+}
+
+.informacoes .info_texto .subtitulo{
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.informacoes .info_texto .descricao{
+    margin-left: 30px;
+    font-size: 18px; 
+    line-height: 30px;
 }

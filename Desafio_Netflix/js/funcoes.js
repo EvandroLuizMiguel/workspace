@@ -3,5 +3,5 @@ function assistir() {
 }
 
 function informacoes() {
-   window.open('informacoes.html','informacoes',"scrollbars=no");
+   window.open('informacoes.html','', 'height=800, width=800, left='+(window.innerWidth-800)/2+', top='+(window.innerHeight-800)/2);
  }
