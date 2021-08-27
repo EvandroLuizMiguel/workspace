@@ -1,5 +1,5 @@
 function assistir() {
-  window.open('https://www.youtube.com/watch?v=mUQnfgvj5aA&ab_channel=StreamingsBrasil','_self');
+  window.open('https://www.youtube.com/watch?v=AuOrsEaZHeI&t=1s&ab_channel=Daniela','_self');
 }
 
 function informacoes() {
