@@ -40,6 +40,7 @@ export const Address = styled.span`
 `;
 
 export const RestaurantPhoto = styled.img`
+  display: ${(props) => (props.imageLoaded ? 'block' : 'none')};
   weidth: 100px;
   heigth: 100px;
   object-fit: cover;
