@@ -16,11 +16,12 @@ const RestaurantCard = ({ restaurant, onClick }) => {
         <ReactStars count={5} value={restaurant.rating} edit={false} isHalf activeColor="#e7711c" />
         <Address>{restaurant.vicinity || restaurant.formatted_address}</Address>
       </RestaurantInfo>
-      <RestaurantPhoto 
+      <RestaurantPhoto
         imageLoaded={imageLoaded}
         src={restaurant.photos ? restaurant.photos[0].getUrl() : restaurante} 
         onLoad={() => setImageLoaded(true)}
-        alt="Foto do Restaurante" 
+        alt="Foto do Restaurante"
+        width="150px" height="150px" 
       />
       {!imageLoaded && <Skeleton width="100px" height="100px" />}
     </Restaurant>

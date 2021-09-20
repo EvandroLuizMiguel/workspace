@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 import Slider from "react-slick";
 
 export const Wrapper = styled.div`
@@ -23,7 +22,7 @@ export const Search = styled.section`
 `;
 
 export const Logo = styled.img`
-  margin-botton: 15px;
+  margin: 10px;
 `;
 
 export const Map = styled.div`
@@ -33,7 +32,7 @@ export const Map = styled.div`
 
 export const Carousel = styled(Slider)`
   .slick-slide {
-    margin-right: 30px;
+    margin-right: 16px;
   }
 `;
 
@@ -43,7 +42,7 @@ export const CarouselTitle = styled.h1`
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
-  margin: 16px;
+  margin: 10px;
 `;
 
 export const ModalTitle = styled.p`

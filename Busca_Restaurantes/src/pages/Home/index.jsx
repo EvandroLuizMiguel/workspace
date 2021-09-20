@@ -56,8 +56,8 @@ const Home = () => {
               {restaurants.length > 0 ? (
                 <>
                   <CarouselTitle>Na sua Área</CarouselTitle>
-                  <Carousel {...settings}>
-                    {restaurants.map((restaurant) => (
+                  <Carousel {...settings}>               
+                  {restaurants.map((restaurant) => (
                       <Card 
                         Key={restaurant.place_id} 
                         photo={restaurant.photos ? restaurant.photos[0].getUrl() : restaurante}

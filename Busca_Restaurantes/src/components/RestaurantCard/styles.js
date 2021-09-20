@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { PROPERTY_TYPES } from "../../../../../Users/Azoup/AppData/Local/Microsoft/TypeScript/4.4/node_modules/@babel/types/lib/index";
 
 export const Restaurant = styled.div`
   display: flex;
@@ -40,9 +39,9 @@ export const Address = styled.span`
 `;
 
 export const RestaurantPhoto = styled.img`
-  display: ${(props) => (props.imageLoaded ? 'block' : 'none')};
   weidth: 100px;
   heigth: 100px;
   object-fit: cover;
   border-radius: 6px;
+  display: ${(props) => (props.imageLoaded ? 'block' : 'none')};  
 `;
